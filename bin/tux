@@ -7,6 +7,6 @@ require 'ripl/multi_line' unless ENV['NO_RIPL_MULTI_LINE']
 require 'hirb'
 require 'wirb'
 
-Hirb.start
-Wirb.enable
+Hirb.enable
+Wirb.start
 Tux::Runner.run
