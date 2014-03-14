@@ -4,4 +4,9 @@ require 'tux'
 require 'tux/rack'
 require 'tux/runner'
 require 'ripl/multi_line' unless ENV['NO_RIPL_MULTI_LINE']
+require 'hirb'
+require 'wirb'
+
+Hirb.start
+Wirb.enable
 Tux::Runner.run
